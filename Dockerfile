@@ -28,6 +28,7 @@ RUN apt-get update && apt-get upgrade -y \
         pdo_pgsql \
         soap \
         zip \
+        exif \
     && docker-php-ext-configure gd \
         --with-freetype-dir=/usr/include/ \
         --with-jpeg-dir=/usr/include/ \
